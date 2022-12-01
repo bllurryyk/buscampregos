@@ -6,16 +6,14 @@ namespace Buscampregos.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
         public IActionResult Index()
         {
-            return View();
+            HomeModel home = new HomeModel();
+
+            home.NomeUser = "Tyler the creator";
+            home.EmailUser = "aboyisagun@tyler.com";
+
+            return View(home);
         }
 
         public IActionResult Privacy()

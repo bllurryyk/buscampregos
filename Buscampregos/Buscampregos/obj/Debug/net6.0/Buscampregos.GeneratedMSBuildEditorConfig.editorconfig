@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Dev\Projetos\Faculdade\Programação Web\buscampregos\Buscampregos\Buscampregos
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/Bookmark/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va21hcmtcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/Perfil/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/Sobre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Dev/Projetos/Faculdade/Programação Web/buscampregos/Buscampregos/Buscampregos/Views/_ViewImports.cshtml]
