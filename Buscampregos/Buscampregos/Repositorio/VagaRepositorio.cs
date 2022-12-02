@@ -12,6 +12,11 @@ namespace Buscampregos.Repositorio
             _bancoContext = bancoContext;
         }
 
+        public List<VagaModel> TodosRegistros()
+        {
+            return _bancoContext.Vagas.ToList();
+        }
+
         public VagaModel Adicionar(VagaModel vaga)
         {
             _bancoContext.Vagas.Add(vaga);

@@ -15,7 +15,9 @@ namespace Buscampregos.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<VagaModel> vagas = _vagaRepositorio.TodosRegistros();
+
+            return View(vagas);
         }
 
         public IActionResult Criar()

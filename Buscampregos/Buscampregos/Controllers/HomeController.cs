@@ -13,7 +13,7 @@ namespace Buscampregos.Controllers
             home.NomeUser = "Tyler the creator";
             home.EmailUser = "aboyisagun@tyler.com";
 
-            return View(home);
+            return View();
         }
 
         public IActionResult Privacy()
