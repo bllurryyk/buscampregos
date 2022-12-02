@@ -2,7 +2,7 @@ services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
-      SA_PASSWORD: "buscampregos"
+      SA_PASSWORD: "Buscampregos2022!"
       ACCEPT_EULA: "Y"
       MSSQL_PID: "Developer"
     ports:
