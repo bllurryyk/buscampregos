@@ -1,10 +1,25 @@
 ﻿@model List<VagaModel>
 @{
-    ViewData["Title"] = "mais uma oportunidade :)";
+    ViewData["Title"] = "oportunidades aqui";
 }
 
+<div class="main-banner-2">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="header-text">
+                  <h6>Bem-vindo</h6>
+                  <h2 class="dif-text">Central de Oportunidades</h2>
+                  <br />
+                  <div class="main-button">
+                    <a href="/Bookmark">Vagas Salvas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+</div>
+<br />
 <div class="text-center">
-    <h1 class="display-4">Principais Vagas</h1>
+    <h1 class="display-4">Vagas Abertas</h1>
 </div>
 
 <div class="container mt-5">
@@ -13,14 +28,14 @@
         {
             foreach (VagaModel vaga in Model)
             {
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="card p-3">
-                                                <div class="mt-5">
+                                                <div>
                                                     <h3 class="mt-3 text-truncate">@vaga.Cargo</h3>
-                                                    <h4 class="mt-3 text-truncate">@vaga.Empresa</h4>
-                                                    <span class="text justify-content mt-3">@vaga.Local</span>
-                                                    <span class="text justify-content mt-3">@vaga.Periodo</span>
-                                                    <span class="text justify-content mt-3">@vaga.TempoPostagem</span>
+                                                    <h4 class="mt-1 text-truncate">@vaga.Empresa</h4>
+                                                    <span class="badge rounded-pill bg-primary mt-3">@vaga.Local</span>
+                                                    <span class="badge rounded-pill bg-dark">@vaga.Periodo</span>
+                                                    <span class="badge rounded-pill bg-success">@vaga.TempoPostagem</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -28,3 +43,4 @@
         }
     </div>
 </div>
+<br /><br /><br />
