@@ -2,7 +2,7 @@
 Projeto Web em ASPN.NET MVC | Criado para a matéria de Programação Web da Faculdade
 
 ## Sobre o projeto
-O sistema permite navegar pelas vagas existente e cadastrar novas vagas. A persistência existe, pois criamos um banco de dados que armazena todos esses itens.
+O sistema permite navegar pelas vagas existentes e cadastrar novas vagas. A persistência existe, pois criamos um banco de dados que armazena todos esses itens.
 
 ## Grupo
 - Alisson Felipe Lima Santos 
